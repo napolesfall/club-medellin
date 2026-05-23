@@ -1,0 +1,15 @@
+footer {
+  position: fixed;
+  right:0;
+  left:0;
+  bottom: 0;
+  background-color: rgb(24, 24, 27);
+  z-index: 22;
+}
+
+footer div {
+  max-width: 48rem;
+  width: 100%;
+  padding: .625rem 1rem;
+}
+

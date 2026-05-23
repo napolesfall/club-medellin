@@ -1,0 +1,21 @@
+/* Class / Tags de estado adicionados por js*/
+.apareceu-marcas {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.indisponivel {
+  color: rgba(248, 113, 113, 0.7);
+}
+
+
+.transition-transform {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}

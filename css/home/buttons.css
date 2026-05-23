@@ -1,0 +1,239 @@
+
+.button {
+  background-color: black;
+  width: 100%;
+
+  padding: .75rem;
+  border: 2px solid red;
+  border-radius: var(--radius-button);
+
+  color: white;
+  cursor: pointer;
+  
+  text-decoration-line: none;
+}
+
+.icon-and-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.5rem;
+  
+}
+
+.icon {
+ padding: .25rem;
+ min-width: 28px;
+ min-height: 28px;
+ border-radius: var(--radius);
+ 
+}
+
+.icon-tele {
+  padding: .25rem;
+  border-radius: var(--radius);
+  background-color: #c9fcff;
+  
+}
+
+
+
+.icon-tele > img{
+  
+  width: 120px;
+  height: 30px;
+}
+
+.icon > svg {
+  width: 16px;
+  height: 16px;
+}
+
+.text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  row-gap: .25rem;
+
+}
+
+.title {
+ font-size: 12px;
+ font-weight: 700;
+}
+
+.subtitle {
+  font-size: 10px;
+}
+
+
+
+
+/* Personaficação dos butões*/
+
+.frete_buttons {
+
+  display: flex;
+  column-gap: 0.75rem;
+}
+
+/*Red button*/
+.red {
+  padding: 0.875rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: rgb(239 68 68 );
+
+  transition: border-color .15s;
+}
+
+.red .text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+}
+
+.red .icon-and-text {
+  column-gap: 0.5rem;
+  
+}
+
+.red:hover {
+  border-color: rgb(252, 106, 106);
+}
+
+.red .icon {
+  font-size: 1.5rem;
+}
+
+.red  .title {
+ font-size: 14px;
+ font-weight: 900;
+ letter-spacing: .025em;
+}
+
+.red .subtitle {
+
+  font-weight: 500;
+  color: rgb(254, 202, 202);
+}
+
+.button-fake,
+.button-fake-ind{
+  font-size: 12px;
+  border-radius: var(--radius-button);
+  padding: 0.125rem .5rem;
+  font-weight: 700;
+  color: rgb(252, 165, 165);
+}
+
+.button-fake {
+ 
+  background-color: rgba(239, 68, 68, 0.2);
+}
+
+.button-fake-ind {
+  background-color: #7F1D1D99;
+}
+
+
+/*cyan*/
+.cyan {
+
+  border-color: rgb(20, 184, 166);
+  transition: border-color .15s;
+}
+
+.cyan:hover {
+  border-color: rgb(26, 219, 197)
+}
+
+.cyan .icon {
+  background-color: rgba(20, 184, 166, 0.2);
+}
+
+.cyan .subtitle {
+  color: rgba(45, 212, 191, 0.7);
+}
+
+/*Orange*/
+
+.orange {
+ border-color: rgb(249, 115, 22);
+ transition: border-color .15s;
+}
+
+.orange:hover {
+ border-color: rgb(252, 140, 60);
+
+}
+
+.orange .icon {
+  background-color: rgba(249, 115, 22, 0.2);
+}
+
+.orange .subtitle {
+  color: rgba(251, 146, 60, 0.7);
+}
+
+/*aqua*/
+
+.aqua {
+  transition: border-color .15s;
+  border-color: rgb(59, 130, 246);
+}
+
+.aqua:hover {
+ border-color: rgb(95, 154, 250);
+}
+
+.aqua .icon {
+  padding: .5rem;
+
+
+  flex-shrink: 0;
+
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.aqua .icon > img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.aqua .subtitle {
+  color: rgba(96, 165, 250, 0.7);
+}
+
+
+/*Telegram*/
+.tele {
+
+  border-color: #37aee2;
+}
+.tele .subtitle {
+  color: #37aee2;
+}
+
+/*Tutorial*/
+
+.tutorial {
+  color:rgb(161, 161, 170);
+  
+  column-gap: .5rem;
+
+  padding: .625rem 1rem;
+  border: 1px solid rgba(82, 82, 91, 0.5);
+  border-radius: var(--radius-button);
+}
+
+.tutorial-icon > svg{
+  width: 16px;
+  height: 16px;
+}
+
+
+

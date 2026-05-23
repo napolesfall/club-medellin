@@ -1,0 +1,97 @@
+
+.modal-foto-container {
+  position: fixed;
+  
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+
+  z-index: 23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  transition: opacity .25s, z-index .3s;
+}
+
+.modal-abriu {
+  opacity: 1;
+}
+
+.modal-fechou {
+  opacity: 0;
+  
+
+}
+
+.modal {
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  
+  width: 25rem;
+  height: 23.625rem;
+}
+
+/*Modal das Imagens*/
+.img-container {
+  
+  position: relative;
+  width: 21.625rem;
+}
+
+.img-container img {
+  
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+}
+
+.close-button {
+  position: absolute;
+
+  top:-15px;
+  right:-15px;
+
+
+  font-size: 16px;
+
+  padding: .6rem 1rem;
+  border-radius: 222px;
+
+  color: white;
+  border: 1px solid rgb(90, 88, 88);
+  background-color: rgb(31, 30, 30);
+
+  cursor: pointer;
+
+  transition: background-color .15s;
+}
+
+.close-button:hover {
+  background-color: rgb(43, 41, 41);
+}
+
+.modal-produto-name,
+.modal-produto-descricao {
+
+  font-size: 16px;
+  color: rgb(161, 161, 170);
+}
+
+.modal-produto-descricao {
+
+  color: rgb(44, 44, 44);
+ background-color: rgb(247, 245, 245);
+ border-radius: var(--radius);
+ padding: .5rem;
+ font-weight: 600;
+
+}

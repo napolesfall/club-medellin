@@ -1,0 +1,290 @@
+{
+  "categorias": [
+    {
+      "categoriaNome": "Marcas Importadas",
+      "categoriaAbreviacao": "MI",
+
+      "categoriaMarcas" : [
+        {
+          "marca": "LANDERGOLD",
+          "atacado": true,
+
+          "produtos": [
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/boldenona.jpg",
+              "nome": "Boldenona",
+              "peso": "250mg",
+              "quantidade": "10ml",
+              "preco": "143,00",
+              "precoAtacado": "133,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "A Boldenona Undecilenato é um esteroide anabolizante altamente eficaz, especialmente valorizado no mundo dos fisiculturistas e atletas pela sua capacidade de promover ganhos musculares de alta qualidade, com baixa retenção de água e gordura.\nCom uma ação prolongada e gradual, a Boldenona Undecilenato é ideal para quem busca aumento de massa muscular magra, força e melhora no desempenho físico, sem os efeitos indesejados de retenção hídrica."
+            },
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/deca.jpg",
+              "nome": "Deca",  
+              "peso": "200mg",
+              "quantidade": "10ml",
+              "preco": "145,00",
+              "precoAtacado": "135,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Decaland Depot é uma forma de Decanoato de Nandrolona, um dos esteroides anabolizantes mais eficazes para promover ganho de massa muscular magra e aumento da força. Com sua ação prolongada, o Decaland Depot é ideal para quem busca ganhos musculares substanciais e de qualidade ao longo de ciclos mais longos, com poucos efeitos colaterais.\nA Nandrolona presente no Decaland Depot é conhecida por sua capacidade de aumentar a síntese de proteínas, melhorar a recuperação muscular e otimizar a retenção de nitrogênio, fatores essenciais para o crescimento muscular."
+            },
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/durateston.jpg",
+              "nome": "Durateston",
+              "peso": "250mg",
+              "quantidade": "10ml",
+              "preco": "145,00",
+              "precoAtacado": "135,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Durateston Plus é uma combinação poderosa de testosterona de ação rápida e prolongada, formulada para maximizar os ganhos de massa muscular, força e energia. Composto por uma mistura de ésteres de testosterona, este produto oferece a flexibilidade de ação imediata, ao mesmo tempo que mantém uma liberação estável e duradoura no organismo.\nA combinação dos diferentes ésteres de testosterona no Durateston Plus promove tanto o aumento rápido de força quanto a manutenção dos níveis hormonais ideais ao longo do tempo. Ideal para quem busca ganhos musculares rápidos e duradouros, esse produto é amplamente utilizado por atletas e fisiculturistas que desejam melhorar sua performance e recuperação muscular."
+            },
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/enantato.jpg",
+              "nome": "Enantato",
+              "peso": "250mg",
+              "quantidade": "10ml",
+              "preco": "165,00",
+              "precoAtacado": "155,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Testosterona Enantato (Testo Enanthate) é uma forma de testosterona muito usada tanto na medicina quanto em alguns contextos de performance, Ele é indicado principalmente para terapia de reposição de testosterona, ajudando pessoas que têm baixa produção natural desse hormônio. Ele pode contribuir para melhora de sintomas como falta de energia, queda da libido, perda de massa muscular e desânimo. Por ter liberação mais lenta, ele mantém a testosterona ativa no organismo por vários dias, o que reduz a necessidade de aplicações frequentes em tratamentos clínicos."
+            },
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/masteron.jpg",
+              "nome": "Masteron",
+              "peso": "100mg",
+              "quantidade": "10ml",
+              "preco": "170,00",
+              "precoAtacado": "160,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "A Drostenolona Propionato é um esteroide anabolizante potente, amplamente utilizado por atletas e fisiculturistas para promover ganhos musculares rápidos, aumento de força e definição muscular. Como uma forma de propionato, tem a característica de ser de ação rápida, permitindo resultados visíveis em um curto espaço de tempo.\nEste produto é ideal para quem busca resultados rápidos e significativos em ciclos de aumento de massa muscular e força. A Drostenolona Propionato é eficaz para melhorar a performance, recuperação muscular e definição, sendo uma excelente escolha para ciclos curtos e intensos."
+            },
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/trembo-acetato.jpg",
+              "nome": "Trembo Acetato",
+              "peso": "100mg",
+              "quantidade": "10ml",
+              "preco": "155,00",
+              "precoAtacado": "145,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "A Trembolona de Acetato é um dos esteroides anabolizantes mais poderosos e eficazes disponíveis no mercado. Reconhecida por sua capacidade de promover ganhos rápidos e significativos de massa muscular magra, força e definição muscular, ela é amplamente utilizada por atletas e fisiculturistas em busca de resultados rápidos e duradouros.\nCom uma ação de curta duração, a Trembolona Acetato tem uma meia-vida de aproximadamente 2-3 dias, o que proporciona efeitos rápidos e visíveis em pouco tempo. A substância é conhecida por não causar retenção excessiva de água, o que resulta em ganhos de qualidade, com aumento da densidade muscular e diminuição da gordura corporal."
+            },
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/trembo-enantato.jpg",
+              "nome": "Trembo Enantato",
+              "peso": "200mg",
+              "quantidade": "10ml",
+              "preco": "143,00",
+              "precoAtacado": "133,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao":"A Trembolona Enantato é um dos esteroides anabolizantes mais potentes que existem, muito conhecido no meio do fisiculturismo por quem busca ganhos rápidos de massa muscular, aumento de força e melhora no desempenho físico. Esta é uma versão de ação mais prolongada da trembolona, ou seja, ela fica mais tempo ativa no corpo depois da aplicação. Ela acabou ficando conhecida por gerar resultados muito intensos em pouco tempo, principalmente em fases de ganho de massa e definição. Porém, é importante entender que também é uma substância com alto nível de efeitos colaterais."
+            },
+            {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/propionato.webp",
+              "nome": "Propionato de Testosterona",
+              "peso": "100mg",
+              "quantidade": "10ml",
+              "preco": "63,00",
+              "precoAtacado": "53,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Propionato de Testosterona 100mg/10ml é um esteroide anabolizante de ação rápida, ideal para quem busca aumento de força, massa muscular e desempenho físico de maneira eficiente. Este composto é uma versão de testosterona com éster propionato, caracterizando-se por uma liberação rápida no organismo, o que resulta em uma ação mais imediata e efeitos rápidos.\nCom uma meia-vida curta, o Propionato de Testosterona permite um controle preciso sobre os níveis hormonais, sendo comumente utilizado em ciclos curtos, tanto para aumento de massa muscular quanto para definição muscular. Seu uso é altamente eficaz, principalmente para indivíduos que buscam resultados rápidos com menor retenção de líquidos, já que esse esteroide possui baixa retenção hídrica."
+            },
+             {
+              "marca": "LANDERGOLD",
+              "foto": "../imgs/landergold/metenolona-enantato.webp",
+              "nome": "Metenolona Enantato",
+              "peso": "100mg",
+              "quantidade": "10ml",
+              "preco": "63,00",
+              "precoAtacado": "53,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Metenolona Enantato 100mg/10ml é uma forma altamente eficaz de Metenolona, um esteroide anabolizante conhecido por sua capacidade de promover ganhos musculares de alta qualidade, com um impacto mínimo na retenção de líquidos. Este produto é ideal para aqueles que buscam definição muscular, força e melhoria no desempenho físico, sendo especialmente eficaz em ciclos de cutting (redução de gordura corporal).\nO Metenolona Enantato apresenta uma liberação gradual da substância no organismo, permitindo que seus efeitos se mantenham por um período prolongado, com aplicações menos frequentes. Com uma meia-vida longa, esse esteroide proporciona resultados duradouros, com um perfil de efeitos colaterais reduzido, sendo uma excelente escolha para quem busca músculos secos, definidos e fortes."
+            }
+          ]
+        },
+
+        {
+          "marca": "Landerlan",
+          "atacado": true,
+          
+          "produtos": [
+            {
+              "marca": "Landerlan",
+              "foto": "../imgs/landerlan/dianabol.webp",
+              "nome": "Dianabol",
+              "peso": "10mg",
+              "quantidade": "100 Comprimidos",
+              "preco": "96,00",
+              "precoAtacado": "73,00",
+              "disponivel": true,
+              "tipo": "Oral",
+              "descricao": "A Metandrostenolona (também conhecida como Dianabol) é um dos esteroides anabolizantes mais populares e eficazes para quem busca ganhos rápidos de massa muscular, aumento de força e potencialização do desempenho físico. Com 10mg por comprimido, este produto é ideal para quem busca resultados rápidos e intensos durante ciclos de bulking (aumento de massa muscular)."
+            },
+            {
+              "marca": "Landerlan",
+              "foto": "../imgs/landerlan/hemogenin.png",
+              "nome": "Hemogenin",
+              "peso": "50mg",
+              "quantidade": "20 Comprimidos",
+              "preco": "63,00",
+              "precoAtacado": "53,00",
+              "disponivel": true,
+              "tipo": "Oral",
+              "descricao": "A Oxitmetolona (também conhecida como Anadrol) é um dos esteroides anabolizantes mais potentes para quem busca ganhos rápidos de massa muscular e aumento significativo de força. Com 50mg por comprimido, este produto é ideal para atletas e fisiculturistas que buscam aumento de volume muscular de forma eficaz, sem comprometer a intensidade dos treinos e recuperação.\nA Oxitmetolona é altamente valorizada por sua capacidade de promover retenção de nitrogênio, um dos principais fatores para o crescimento muscular. Sua ação rápida e poderosa torna esse esteroide excelente para quem deseja ganhos substanciais em curto período de tempo."
+            },
+            {
+              "marca": "Landerlan",
+              "foto": "../imgs/landerlan/oxandrolona-10mg.jpg",
+              "nome": "Oxandrolona 10mg",
+              "peso": "10mg",
+              "quantidade": "50 Comprimidos",
+              "preco": "214,00",
+              "precoAtacado": "204,00",
+              "disponivel": true,
+              "tipo": "Oral",
+              "descricao": "O Oxandroland (também conhecido como Oxandrolona) é um esteroide anabolizante de ação suave, altamente eficaz para aumento de força, melhora na definição muscular e redução de gordura corporal. Com 10mg por comprimido, este produto é ideal para quem busca resultados visíveis e de qualidade sem os efeitos colaterais agressivos de outros esteroides mais fortes.\nA Oxandrolona é conhecida por sua capacidade de promover aumento muscular magro, sem retenção excessiva de água, tornando-a uma excelente opção para ciclos de definição. Além disso, é amplamente utilizada por atletas e fisiculturistas durante períodos de cutting, proporcionando ganhos duradouros sem comprometer a saúde."
+            },
+            {
+              "marca": "Landerlan",
+              "foto": "../imgs/landerlan/oxandrolona-5mg.png",
+              "nome": "Oxandrolona 5mg",
+              "peso": "5mg",
+              "quantidade": "100 Comprimidos",
+              "preco": "225,00",
+              "precoAtacado": "215,00",
+              "disponivel": true,
+              "tipo": "Oral",
+              "descricao": "O Oxandroland (conhecido também como Oxandrolona) é um esteroide anabolizante de ação suave e eficaz, ideal para quem busca aumento de força, definição muscular e perda de gordura corporal. Com 5mg por comprimido, este produto é excelente para quem deseja resultados sustentáveis sem os efeitos colaterais intensos associados a esteroides mais potentes.\nA Oxandrolona é amplamente utilizada durante ciclos de cutting, ajudando a preservar a massa muscular magra enquanto promove a perda de gordura. É conhecida por ser uma opção de esteroide mais segura, com baixo impacto sobre o sistema hepático e poucos efeitos colaterais, o que a torna popular entre iniciantes e usuários mais experientes."
+            },
+            {
+              "marca": "Landerlan",
+              "foto": "../imgs/landerlan/stanozolol-oral.webp",
+              "nome": "Stanozolol Oral",
+              "peso": "10mg",
+              "quantidade": "100 Comprimidos",
+              "preco": "63,00",
+              "precoAtacado": "53,00",
+              "disponivel": true,
+              "tipo": "Oral",
+              "descricao": "O Stanozoland (também conhecido como Winstrol ou Stanozolol) é um esteroide anabolizante de ação eficaz, ideal para quem busca aumento de força, definição muscular e redução de gordura corporal. Com 10mg por comprimido, este produto é uma excelente escolha para quem deseja resultados rápidos e duradouros, especialmente em ciclos de cutting.\nA Stanozolol é amplamente utilizada por atletas e fisiculturistas que desejam melhorar a vascularização, aumentar a resistência e definir a musculatura sem os efeitos colaterais de retenção de líquidos. Seu uso é especialmente indicado para quem quer perder gordura corporal e ganhar massa muscular magra, com ganhos musculares de alta qualidade e sem o aumento de gordura."
+              }
+          ]
+        },
+
+        {
+          "marca": "Muscle Labs",
+          "atacado": true,
+
+          "produtos": [
+            {
+              "marca": "Muscle Labs",
+              "foto": "../imgs/muscle-labs/deca.jpg",
+              "nome": "Deca",
+              "peso": "300mg",
+              "quantidade": "10ml",
+              "preco": "145,00",
+              "precoAtacado": "135,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Decaland Depot é uma forma de Decanoato de Nandrolona, um dos esteroides anabolizantes mais eficazes para promover ganho de massa muscular magra e aumento da força. Com sua ação prolongada, o Decaland Depot é ideal para quem busca ganhos musculares substanciais e de qualidade ao longo de ciclos mais longos, com poucos efeitos colaterais.\nA Nandrolona presente no Decaland Depot é conhecida por sua capacidade de aumentar a síntese de proteínas, melhorar a recuperação muscular e otimizar a retenção de nitrogênio, fatores essenciais para o crescimento muscular."
+            },
+            {
+              "marca": "Muscle Labs",
+              "foto": "../imgs/muscle-labs/durateston.jpg",
+              "nome": "Durateston",
+              "peso": "250mg",
+              "quantidade": "10ml",
+              "preco": "145,00",
+              "precoAtacado": "135,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Durateston Plus é uma combinação poderosa de testosterona de ação rápida e prolongada, formulada para maximizar os ganhos de massa muscular, força e energia. Composto por uma mistura de ésteres de testosterona, este produto oferece a flexibilidade de ação imediata, ao mesmo tempo que mantém uma liberação estável e duradoura no organismo.\nA combinação dos diferentes ésteres de testosterona no Durateston Plus promove tanto o aumento rápido de força quanto a manutenção dos níveis hormonais ideais ao longo do tempo. Ideal para quem busca ganhos musculares rápidos e duradouros, esse produto é amplamente utilizado por atletas e fisiculturistas que desejam melhorar sua performance e recuperação muscular."
+            },
+            {
+              "marca": "Muscle Labs",
+              "foto": "../imgs/muscle-labs/stanozolol.png",
+              "nome": "Stanozolol Oral",
+              "peso": "50mg",
+              "quantidade": "10ml",
+              "preco": "63,00",
+              "precoAtacado": "53,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Stanozoland (também conhecido como Winstrol ou Stanozolol) é um esteroide anabolizante de ação eficaz, ideal para quem busca aumento de força, definição muscular e redução de gordura corporal. Com 10mg por comprimido, este produto é uma excelente escolha para quem deseja resultados rápidos e duradouros, especialmente em ciclos de cutting.\nA Stanozolol é amplamente utilizada por atletas e fisiculturistas que desejam melhorar a vascularização, aumentar a resistência e definir a musculatura sem os efeitos colaterais de retenção de líquidos. Seu uso é especialmente indicado para quem quer perder gordura corporal e ganhar massa muscular magra, com ganhos musculares de alta qualidade e sem o aumento de gordura."
+            }
+          ]
+        }
+      ]
+
+    },
+
+    {
+    "categoriaNome": "Marcas Premium",
+    "categoriaAbreviacao": "MP",
+    "categoriaMarcas" : [
+        {
+          "marca": "New Generation",
+          "atacado": true,
+
+          "produtos": [
+            {
+              "marca": "New Generation",
+              "foto": "../imgs/new-generation/testo-enanthate.jpeg",
+              "nome": "Testo Enanthate",
+              "peso": "250mg",
+              "quantidade": "10ml",
+              "preco": "167,00",
+              "precoAtacado": "157,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Testosterona Enantato (Testo Enanthate) é uma forma de testosterona muito usada tanto na medicina quanto em alguns contextos de performance, Ele é indicado principalmente para terapia de reposição de testosterona, ajudando pessoas que têm baixa produção natural desse hormônio. Ele pode contribuir para melhora de sintomas como falta de energia, queda da libido, perda de massa muscular e desânimo. Por ter liberação mais lenta, ele mantém a testosterona ativa no organismo por vários dias, o que reduz a necessidade de aplicações frequentes em tratamentos clínicos."
+            },
+            {
+              "marca": "New Generation",
+              "foto": "../imgs/new-generation/deca-nandrolone.jpeg",
+              "nome": "Deca Nandrolone",
+              "peso": "250mg",
+              "quantidade": "10ml",
+              "preco": "145,00",
+              "precoAtacado": "135,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao": "O Decaland Depot é uma forma de Decanoato de Nandrolona, um dos esteroides anabolizantes mais eficazes para promover ganho de massa muscular magra e aumento da força. Com sua ação prolongada, o Decaland Depot é ideal para quem busca ganhos musculares substanciais e de qualidade ao longo de ciclos mais longos, com poucos efeitos colaterais.\nA Nandrolona presente no Decaland Depot é conhecida por sua capacidade de aumentar a síntese de proteínas, melhorar a recuperação muscular e otimizar a retenção de nitrogênio, fatores essenciais para o crescimento muscular."
+            },
+            {
+              "marca": "New Generation",
+              "foto": "../imgs/new-generation/sustanon.jpeg",
+              "nome": "Sustanon",
+              "peso": "250mg",
+              "quantidade": "10ml",
+              "preco": "145,00",
+              "precoAtacado": "135,00",
+              "disponivel": true,
+              "tipo": "Injetável",
+              "descricao" : "O Sustanon é um esteroide anabolizante à base de testosterona bastante conhecido, usado principalmente para reposição hormonal em casos de baixa produção natural desse hormônio. Ele é uma mistura de diferentes ésteres de testosterona, o que faz com que tenha ação rápida e também mais prolongada no organismo, ajudando a manter níveis mais estáveis. Em termos simples, ele é utilizado para tratar deficiência de testosterona e melhorar sintomas como cansaço, perda de massa muscular e baixa libido em contextos médicos."
+            }
+          ]
+        }
+    ]
+
+    }
+  ]
+}

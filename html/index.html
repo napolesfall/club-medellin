@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Club Medellín</title>
+  <link rel="shortcut icon" href="../imgs/fav-icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="../css/home/general-configuration.css">
+  <link rel="stylesheet" href="../css/home/header.css">
+  <link rel="stylesheet" href="../css/home/slogan.css">
+  <link rel="stylesheet" href="../css/home/buttons.css">
+  <link rel="stylesheet" href="../css/home/marcas.css">
+  <link rel="stylesheet" href="../css/home/produto.css">
+  <link rel="stylesheet" href="../css/home/states.css">
+  <link rel="stylesheet" href="../css/home/modal.css">
+  <link rel="stylesheet" href="../css/home/input-busca.css">
+  <link rel="stylesheet" href="../css/home/modal-novidades.css">
+  <link rel="stylesheet" href="../css/home/footer.css">
+</head>
+<body class="dark-theme">
+
+  <!--Cabeçario-->
+  <header>
+    <div class="header-container">
+        <!-- Logo e Butão de notificações-->
+      <div class="header-top">
+          <div class="logo">
+            <img alt="CLUB MEDELLÍN" src="../imgs/logo.png" width="144" height="96">
+          </div>
+
+          <!-- Notification-->
+        
+          <div class="por-botao"></div>
+        
+      </div>
+
+      <!-- Pesquisas-->
+      <div class="header-down">
+          <div class="busca-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"  aria-hidden="true">
+              <path d="m21 21-4.34-4.34"></path>
+              <circle cx="11" cy="11" r="8"></circle>
+            </svg>
+          </div>
+          
+          
+          <input type="text" name="" id="" class="busca-input" placeholder="Buscar produto ou marca...">
+     
+          <button class="busca-input-close" inert style="opacity: 0;"">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18"></path>
+              <path d="m6 6 12 12"></path>
+            </svg>
+          </button>
+
+          <div class="input-popup-container">
+          </div>
+      </div>
+    </div>
+   
+  </header>
+
+  <!--Contéudo-->
+  <main>
+    <!-- Slogan-->
+    <div class="slogan">
+
+      <div class="slogan-efeito-top" style="background: linear-gradient(to right, transparent, rgba(201, 162, 39, 0.5), transparent);"></div>
+      <div class="slogan-efeito-bottom" style="background: linear-gradient(to right, transparent, rgba(201, 162, 39, 0.15), transparent);"></div> 
+     
+      <div class="line-effect" style="background: linear-gradient(to right, transparent, rgba(201, 162, 39, 0.4));"></div>
+      
+      <div class="slogan-text">
+        <h2 class="slogan-title">As Melhores Marcas do Mundo</h2>
+        <p class="slogan-subtitle">VOCÊ ENCONTRA AQUI</p>
+      </div>
+
+      <div class="line-effect" style="background: linear-gradient(to left, transparent, rgba(201, 162, 39, 0.4));"></div>
+    </div>
+
+    <!-- Promoçções Button -->
+    <a type="button" class="button red" href="../html/ofertas.html">
+      <div class="icon-and-text">
+        <div class="icon">🔥</div>
+        <div class="text">
+          <div class="title">PROMOÇÕES</div>
+          <div class="subtitle">Ofertas exclusivas com preços imperdíveis</div>
+        </div>
+      </div>
+
+      <div class="button-fake">
+        VER OFERTAS →
+      </div>
+    </a>
+
+    <!-- Frete Buttons-->
+    <div type="button" class="frete_buttons">
+      <!-- Tabela de fretes Button-->
+      <a class="button cyan" href="../html/fretes.html">
+        <div class="icon-and-text">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: rgb(94, 234, 212);">
+              <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path>
+              <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
+              <circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle>
+            </svg>
+          </div>
+          <div class="text">
+            <div class="title">
+              Tabela de Fretes
+            </div>
+            <div class="subtitle">
+              Valores de Entrega
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Regras de Envio Button-->
+      <a type="button" class="button orange" href="../html/regras.html">
+        <div class="icon-and-text">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: rgb(253, 186, 116);">
+              <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
+              <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+              <path d="M10 9H8"></path><path d="M16 13H8"></path>
+              <path d="M16 17H8"></path>
+            </svg>
+          </div>
+          <div class="text">
+            <div class="title">
+              Regras de Envio
+            </div>
+            <div class="subtitle">
+              Como funciona
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    
+
+    <!-- Ratreia button-->
+    <a type="button" class="button aqua" href="https://conecta.log.br/rastreio">
+      <div class="icon-and-text">
+        <div class="icon" style="background-color: rgba(59, 130, 246, 0.2);">
+            <img alt="ONLOG" class="icon" src="https://conecta.log.br/assets/img/logo.png" style="filter: brightness(0) invert(1); width: 32px; height: 32px;">
+        </div>
+        
+        <div class="text">
+            <div class="title">Rastreie seu Pedido</div>
+            <div class="subtitle">Consulte pelo seu CPF</div>
+        </div>
+      </div>
+    </a> 
+
+    <!--Telegram-->
+    <a type="button" class="button tele" href="../html/aba-simplex.html">
+      <div class="icon-and-text">
+        <div class="icon-tele" >
+            <img src="../imgs/logo-simplex.png" alt="SIMPLEX LOGO">
+        </div>
+        
+        <div class="text">
+            <div class="title">Faça seu Pedido</div>
+            <div class="subtitle">Compre aqui pelo SIMPLEX!</div>
+        </div>
+      </div>
+    </a> 
+
+    <!-- Aviso de uso-->
+    <div class="tutorial">
+      <div class="tutorial-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: rgb(161, 161, 170);">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" x2="16.65" y1="21" y2="16.65"></line>
+          <line x1="11" x2="11" y1="8" y2="14"></line>
+          <line x1="8" x2="14" y1="11" y2="11"></line>
+        </svg>
+      </div>
+      <div class="tutorial-text">Toque na foto do produto para ampliar a imagem</div>
+    </div>
+
+   <!-- Produtos-->
+    <div class="categoria">
+      <div class="nenhum-produto-ofertado">
+        <img src="../imgs/carregando.gif" alt="Gif de carregamento de contéudo" width="65">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="resultado-busca">
+
+
+  </div>
+
+
+
+  
+  </main>
+
+   <!-- Footer -->
+  <footer>
+    <div>
+      <p style="color: rgb(113, 113, 122);">CLUB MEDELLÍN • 2 produtos</p>
+    </div>
+  </footer>
+
+
+  <!--Modal Foto-->
+
+  <div class="modal-foto-container modal-fechou" inert data-state="close">
+    <div class="modal">
+      <div class="img-container">
+        <img src="../imgs/logo.png" alt="Foto do Remédio" width="200">
+        <button class="close-button" onclick="">X</button>
+      </div>
+      
+      <p class="modal-produto-name">Nome de algo ai</p>
+      <p class="modal-produto-descricao"></p>
+    </div>
+  </div>
+
+  <!-- Modal Novidades -->
+   <div class="modal-novidades-container" inert>
+      
+      <div class="modal-novidades">
+        <div class="modal-top">
+          <span class="touch"></span>
+        </div>
+
+        <div class="modal-titulo">
+          <h2>Novidades da Tabela</h2>
+
+          <div class="modal-buttons">
+            <div class="button-marca-visto-container">
+              <button type="button" class="button-marcar-visto">Marcar como visto</button>
+            </div>
+            <button class="modal-novidades-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path>
+              </svg>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="modal-content"></div>
+
+      </div>
+   </div>
+
+
+  <!--Scripts-->
+  <script type="module" src="../js/home/criarMarca.js"></script>
+  <script src="../js/home/input.js" type="module"></script>
+  <script src="../js/home/modalNovidades.js"></script>
+
+</body>
+</html>

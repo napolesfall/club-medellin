@@ -1,0 +1,146 @@
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+  
+  margin-top: 128px;
+  padding: 0 1rem 5rem;
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+
+}
+
+
+.slogan,
+.slogan.varejo,
+.slogan.atacado{
+  
+  position: relative;
+
+  width: 100%;        
+        
+  padding: .75rem 1rem;
+  column-gap: .75rem;
+  background-color: rgb(59 130 246 / .5);
+
+  border: 1px solid transparent;
+  border-radius: var(--radius-button);
+  text-align: center;
+}
+
+.slogan {
+ background-image: linear-gradient(to right bottom, rgb(24, 23, 23),rgb(43, 41, 41), rgb(19, 18, 18));
+}
+
+.slogan.varejo {
+  
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  background-image: linear-gradient(to right bottom, rgb(9, 9, 11),rgb(9, 9, 11), rgb(28, 0, 56),#000000 , rgb(28, 0, 56),rgb(9, 9, 11), rgb(9, 9, 11));
+
+}
+
+.slogan.atacado {
+  
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    background-image: linear-gradient(to right bottom, rgb(58, 0, 0),#000000 , rgb(58, 0, 0));
+
+}
+
+.slogan-efeito-top,
+.slogan-efeito-bottom {
+  background: linear-gradient(to right, transparent, rgba(201, 162, 39, 0.5), transparent);
+}
+
+.line-effect {
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.4));
+  width: 3rem;
+  height: 1px;
+}
+
+/*slogan Verejo*/
+.slogan.varejo .slogan-efeito-top,
+.slogan.varejo .slogan-efeito-bottom {
+  background: linear-gradient(to right, transparent, rgba(115, 39, 201, 0.5), transparent);
+}
+
+.slogan.varejo .slogan-title {
+  color: rgba(213, 87, 252, 0.6);
+}
+
+
+/*slogan Atacado*/
+.slogan.atacado .slogan-efeito-top,
+.slogan.atacado .slogan-efeito-bottom {
+  background: linear-gradient(to right, transparent, rgba(201, 39, 39, 0.562), transparent);
+}
+
+.slogan.atacado .slogan-title {
+  color: rgba(228, 39, 39, 0.877);
+}
+
+
+.slogan.atacado .line-effect,
+.slogan.varejo .line-effect {
+  width: 6rem;
+  height: 4px;
+}
+
+.slogan-text {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2px;
+}
+
+.slogan-title {
+  color: var(--slogan-title-color);
+  font-size: 1.25rem;
+  font-weight: 900;
+  display: flex;
+  align-items: baseline;
+  line-height: 1.75rem;
+  transition: font-size .15s;
+}
+
+
+
+.slogan-subtitle {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(161, 161, 170);
+  letter-spacing: .22em;
+  line-height: 1rem;
+
+  transition: font-size .15s;
+}
+
+.slogan-efeito-top,
+.slogan-efeito-bottom {
+  position: absolute;
+  left:0;
+  right: 0;
+  height: 1px;
+}
+
+.slogan-efeito-top {
+  top:0;
+}
+
+.slogan-efeito-bottom {
+  bottom: 0;
+}
+
+@media screen and (max-width: 497px) {
+  .slogan-title {
+    font-size: 1.15rem;
+  }
+
+  .slogan-subtitle {
+    font-size: .6rem;
+  }
+}

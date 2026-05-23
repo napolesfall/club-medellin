@@ -1,0 +1,135 @@
+
+
+.nenhum-produto-ofertado {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+
+  margin-top: 5rem;
+
+}
+
+.nenhum-produto-ofertado p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.nenhum-produto-ofertado p:nth-child(3) {
+  
+  color: rgb(113, 113, 122);
+
+}
+
+.nenhum-produto-ofertado .botao {
+  background-color: rgb(220, 38, 38);
+  color: white;
+
+  text-decoration-line: none;
+  font-weight: 600;
+  
+  transition: background-color .25s;
+  padding: 0.625rem 1.25rem;
+  border-radius: 12px;
+}
+
+.nenhum-produto-ofertado .botao:hover {
+  background-color: rgba(255, 255, 255, 0.068);
+}
+
+
+/*Produtos Ofertados*/
+
+.produto-ofertado-container {
+
+}
+
+.marca {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: .25rem;
+  padding-left: .2rem;
+}
+
+
+.produto-info {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.produto-info .foto {
+  border-radius: var(--radius);
+  overflow: hidden;
+  
+  border: 1px solid rgba(252, 34, 34, 0.397);
+
+  width: 52px;
+  height: 52px;
+
+  cursor: pointer;
+}
+
+.produto-info .foto img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  
+}
+
+.produto-info .info {
+
+}
+
+.produto-info .nome {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+
+
+.frete-preco {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+
+.preco-anterior {
+  color: rgb(202, 7, 7);
+  background-color: rgba(0, 0, 0, 0.521);
+  border: 1px solid rgba(255, 255, 255, 0.288);
+  border-radius: 4px;
+  padding: .1rem .4rem;
+  text-decoration-line: line-through;
+}
+
+.preco-atual {
+  color: gold;
+  font-size: 22px;
+  text-decoration-line: underline;
+}
+
+.frete-container-top {
+
+  background-image: linear-gradient(to right, rgb(90, 9, 9), rgba(236, 33, 33, 0));
+}
+.frete-container-top h2 {
+  font-size: 20px;
+}
+
+.frete-container-top p {
+  font-size: 14px;
+  color: rgb(231, 185, 185);
+}
+
+.table-frete th {
+  font-size: 13px;
+}

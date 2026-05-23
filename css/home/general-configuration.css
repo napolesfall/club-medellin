@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system-, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  border-color: var(--border-color);
+  user-select: none;
+  -moz-user-select: none;
+}
+
+:root {
+
+  --radius: .5rem;
+  --radius-button: .75rem;
+}
+
+.dark-theme {
+
+  --bg-color: #09090B;
+  --header-color: #18181B;
+  --button-bg-color: #000;
+
+  --input-bg-color: #27272A;
+
+  --slogan-title-color: #C9A227;
+
+  --button-title-color: #FFFFFF;
+
+  --historico-text-color: #A1A1AA;
+
+  --button-subtitle-prom-color: #FECACA;
+  --button-subtitle-fre-color: #2DD4BFB3;
+  --button-subtitle-reg-color: #FB923CB3;
+  --button-subtitle-ras-color: #60A5FAB3;
+
+  --border-color: rgb(63, 63, 70);
+
+}
+
+html {
+  
+
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color:  var(--bg-color);
+  font-size: .875rem;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100dvh;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #C9A227;
+}
+
+.center,
+.slogan,
+.header-content,
+.busca-input-close,
+.tutorial,
+.tutorial-icon,
+.aqua .icon,
+.red .icon,
+.red .icon-and-text,
+.icon,
+footer,
+footer div,
+.marca-tipo,
+.marca-tipo-icon,
+.tipo-uso,
+.qtd-produtos, 
+.produto-selecao,
+.icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

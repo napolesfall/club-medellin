@@ -1,0 +1,154 @@
+[
+    {
+      "titulo": "PAC",
+      "subtitulo": "Correios — PAC",
+      "regiaoPreco": [
+        {
+          "regiao": "SP",
+          "preco": "32.00"
+        },
+        {
+          "regiao": "RJ, DF, ES, GO, RS",
+          "preco": "45.00"
+        },
+        {
+          "regiao": "MG, MS, PR, SC",
+          "preco": "45.00"
+        },
+
+        {
+          "regiao": "BA, MT",
+          "preco": "58.00"
+        },
+
+        {
+          "regiao": "CE",
+          "preco": "72.50"
+        },
+
+        {
+          "regiao": "PA, PE, TO",
+          "preco": "87.00"
+        },
+        {
+          "regiao": "AM, AP, MA, PI, PB, AL",
+          "preco": "100.00"
+        },
+        {
+          "regiao": "RN, SE, RO",
+          "preco": "100.00"
+        },
+        {
+          "regiao": "RR, AC",
+          "preco": "130.00"
+        }
+      ]
+    },
+    
+    {
+      "titulo": "SEDEX",
+      "subtitulo": "Correios — SEDEX",
+      "regiaoPreco": [
+        {
+          "regiao": "SP",
+          "preco": "40.00"
+        },
+        {
+          "regiao": "DF, PR",
+          "preco": "60.00"
+        },
+        {
+          "regiao": "ES, GO, MG, RJ, RS, SC",
+          "preco": "70.00"
+        },
+
+        {
+          "regiao": "MS",
+          "preco": "85.00"
+        },
+
+        {
+          "regiao": "BA, MT",
+          "preco": "90.50"
+        },
+
+        {
+          "regiao": "CE, PA, TO",
+          "preco": "105.00"
+        },
+        {
+          "regiao": "AC, RO",
+          "preco": "110.00"
+        },
+        {
+          "regiao": "PE",
+          "preco": "115.00"
+        },
+        {
+          "regiao": "AL, AM, AP, MA",
+          "preco": "125.00"
+        },
+        {
+          "regiao": "PB, PI, RN, SE",
+          "preco": "125.00"
+        }
+      ]
+    },
+    
+    
+    
+    {
+      "titulo": "JADLOG",
+      "subtitulo": "Sua encomenda no melhor caminho",
+      "regiaoPreco": [
+        {
+          "regiao": "São Paulo (capital)",
+          "preco": "150.00"
+        },
+        {
+          "regiao": "Alphaville / Barueri",
+          "preco": "160.00"
+        },
+        {
+          "regiao": "Carapicuíba",
+          "preco": "160.00"
+        },
+
+        {
+          "regiao": "Guarulhos",
+          "preco": "170.00"
+        },
+
+        {
+          "regiao": "Campinas",
+          "preco": "170.00"
+        },
+
+        {
+          "regiao": "São Bernardo do Campo",
+          "preco": "170.00"
+        },
+        {
+          "regiao": "Mauá",
+          "preco": "170.00"
+        },
+        {
+          "regiao": "Jundiaí",
+          "preco": "190.00"
+        },
+        {
+          "regiao": "Indaiatuba",
+          "preco": "190.00"
+        },
+        {
+          "regiao": "Santos",
+          "preco": "240.00"
+        },
+        {
+          "regiao": "Praia Grande",
+          "preco": "290.00"
+        }
+      ]
+    }
+
+]

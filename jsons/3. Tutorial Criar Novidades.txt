@@ -1,0 +1,30 @@
+
+=== Se passaste pelos os outros dois tutoriais, ent já sabe da dica.
+
+== Aqui está um modelo para dois casos: Novo produto adicionado e mudança de preço de um produto.
+[
+  {
+    "icon": "✨", 
+    "produtoNome": "Tesamorelin",
+    "marca": "NEO PEPTIDES",
+    "descricao": "Novo produto adicionado — R$ 385,00",
+    "data": "21/04",
+    "hora": "16:48",
+    "produtoNovo": true -> se for adicionar um produto novo, ativa isso, vai mudar a cor do texto da letra!
+  },
+  {
+    "icon": "💰",
+    "produtoNome": "Tirzepatida 90mg",
+    "marca": "Health Peptídeos",
+    "descricao": "Preço atualizado → R$ 1.275,00",
+    "data": "20/04",
+    "hora": "03:34",
+    "produtoNovo": false -> deixar falso que dizer que é mudança de preco...
+  }
+]
+
+=== Oq? precisa de um novo tipo de novidade/notificação? E precisa de um nova cor para o texto dele ?
+  -> entre em contato comigo para esse ultimo caso kkkkkkkkkkk
+  -> de resto copiando e editando deve resolver
+
+== Não vou fazer tutorial de como add novo frete kkkk, literalmente só seguir como eu disse, copia, cola e edita kkkk

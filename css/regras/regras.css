@@ -1,0 +1,259 @@
+.regras-container {
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.regra {
+
+}
+
+/*Regra top*/
+.regra-top {
+  background-color: rgb(24 24 27);
+  background-image: linear-gradient( to right, rgb(16 185 129 / .15), rgba(16, 185, 129, 0) );
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+
+  border-top-left-radius: var(--radius-button);
+  border-top-right-radius: var(--radius-button);
+
+  padding: .75rem 1rem;
+  border: 1px solid rgb(38, 38, 38);
+  border-bottom-color: transparent;
+}
+
+.regra-top svg {
+  width: 16px;
+  height: 16px;
+  
+}
+
+.regra-top h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(110, 231, 183);
+}
+
+/*Regra conteudo*/
+.regra-conteudo {
+  padding: 1rem;
+  background-color: rgb(24 24 27);
+  display: flex;
+  flex-direction: column;
+  row-gap: .75rem;
+
+  border-bottom-left-radius: var(--radius-button);
+  border-bottom-right-radius: var(--radius-button);
+
+  border: 1px solid rgb(38, 38, 38);
+  border-top-color: transparent;
+  
+  color: rgb(212, 212, 216); 
+  line-height: 1.625;
+}
+
+.regra-conteudo ul {
+  color: rgb(212, 212, 216);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: .75rem;
+}
+
+.regra-conteudo ul li {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.bolinha {
+  background-color: rgb(52, 211, 153);
+  border-radius: 9999px;
+  width: .375rem;
+  height: .375rem;
+}
+
+/*Avisos*/
+.avisos {
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  margin-top: 6px;
+}
+
+.aviso-red,
+.aviso-yellow {
+  font-size: 12px;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  column-gap: .375rem;
+  padding: .25rem .625rem;
+  border-radius: 2222px;
+  line-height: 1rem;
+}
+
+.aviso-red svg,
+.aviso-yellow svg {
+  width: 12px;
+  height: 12px;
+}
+/*Aviso red*/
+.aviso-red {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: rgb(252, 165, 165);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+
+/* Aviso yellow*/
+.aviso-yellow {
+  background-color: rgba(234, 179, 8, 0.15);
+  color: rgb(253, 224, 71);
+  border: 1px solid rgba(234, 179, 8, 0.3);
+}
+
+/*Aviso quadrado*/
+.aviso-quadrado-red,
+.aviso-quadrado-yellow {
+  padding: .625rem .75rem;
+  line-height: 1.625;
+  font-size: 12px;
+  border-radius: var(--radius-button);
+} 
+
+.aviso-quadrado-yellow {
+  background-color: rgba(66, 32, 6, 0.4);
+  border: 1px solid rgba(161, 98, 7, 0.4);
+  color: rgb(254, 240, 138);
+}
+
+.aviso-quadrado-red {
+  background-color: #450a0a80;
+  border: 1px solid #dc262666;;
+  color: rgb(254, 202, 202);
+}
+
+.aviso-quadrado-yellow .destaque {
+  
+  font-weight: 600;
+  color: rgb(253, 224, 71);
+  
+}
+
+/*Postagem*/
+
+.postagem .regra-top {
+  background-image: linear-gradient(to right, rgb(249 115 22 / .15), rgb(249 115 22 / 0));
+}
+
+.postagem .regra-top h2 {
+  color: rgb(251, 146, 60);
+}
+
+.regra .destaque {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+/*Rastreio*/
+
+.rastreio .regra-top {
+  background-image: linear-gradient(to right, rgb(59 130 246 / .15), rgb(59 130 246 / 0));
+}
+
+.rastreio .regra-top h2 {
+  color: rgb(147, 197, 253);
+}
+
+/*Seguro*/
+
+.seguro .regra-top {
+  background-image: linear-gradient(to right, rgb(245 158 11 / .15), rgb(245 158 11 / 0));
+}
+
+.seguro .regra-top h2 {
+  color: rgb(252, 211, 77);
+}
+
+/*Recebimento da Mercadoria*/
+
+.recebimento .regra-top {
+  background-image: linear-gradient(to right, rgb(249 115 22 / .15), rgb(249 115 22 / 0));
+}
+
+.recebimento .regra-top h2 {
+  color: rgb(253, 186, 116);
+}
+
+.recebimento .bolinha {
+  background-color: rgb(251, 146, 60);
+  border-radius: 9999px;
+  width: .375rem;
+  height: .375rem;
+}
+
+/*Endereço*/
+
+.endereco .regra-top {
+  background-image: linear-gradient(to right, rgb(16 185 129 / .15), rgb(16 185 129 / 0));
+}
+
+.endereco .regra-top h2 {
+  color: rgb(110, 231, 183);
+}
+
+
+/*Credibilidade e Confiança*/
+
+.cred .regra-top {
+  background-image: linear-gradient(to right, rgb(139 92 246 / .15), rgb(139 92 246 / 0));
+}
+
+.cred .regra-top h2 {
+  color: rgb(196, 181, 253);
+}
+
+
+/*Formas de instalar*/
+.formas-instalar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.formas-instalar > .icon{
+  border: none;
+}
+
+
+/*LINKS*/
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+
+.links img {
+  width: 250px;
+}
+
+.links svg {
+
+
+  width: 250px;
+}
+
+
+.letra-grossa {
+  font-weight: 500;
+}

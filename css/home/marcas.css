@@ -1,0 +1,187 @@
+.mostrar-marcas-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mostrar-marcas {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  border-radius: var(--radius-button);
+  color: var(--slogan-title-color);
+
+  font-weight: 700;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  cursor: pointer;
+    
+  transition: background-color .15s;
+  width: 100%;
+}
+
+.marca {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.5);
+ 
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  border-color: rgba(39, 39, 42, 0.3) rgba(201, 162, 39, 0.2) rgba(39, 39, 42, 0.3) rgba(201, 162, 39, 0.2);
+  
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  
+
+}
+
+.categoria-radio,
+.marca-radio {
+  cursor: pointer;
+}
+
+.marca svg{
+  width: 16px;
+  height: 16px;
+}
+
+.mostrar-marcas:hover,
+.marca:hover {
+  background-color: rgba(255, 255, 255, 0.005);
+}
+
+.marca-tipo {
+  column-gap: .75rem;
+  
+}
+
+.marca-tipo-icon {
+  font-size: 14px;
+  background-color: rgba(201, 162, 39, 0.2);
+
+  border-radius: var(--radius);
+  font-weight: 700;
+
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+
+
+.marca-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+
+  transition: font-size .15s;
+}
+
+.marca-name-aumento {
+  font-size: 18px;
+}
+
+.marca-tipo-text,
+.marca-text {
+
+  flex-direction: column;
+  text-align: left;
+}
+
+.marca-tipo-text > h2 {
+
+  font-size: 16px;
+  text-transform: uppercase;
+  
+}
+
+.marca-tipo-text > p,
+.marca-produtos {
+  font-size: 12px;
+  color: rgb(113, 113, 122);
+
+}
+
+.mostrar-marcas-final {
+  
+  border: 1px solid rgba(201, 162, 39, 0.2);
+ 
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: #18181B4D;
+  padding: 1rem;
+}
+
+.highlight {
+  position: relative;
+  margin-right: 2px;
+  font-size: inherit;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: red; 
+}
+
+.divisao-categoria,
+.divisao-categoria.atacado {
+
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+
+  background-color: rgb(133, 28, 97);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: .5rem 2rem;
+
+  border-radius: var(--radius);
+  
+}
+
+.divisao-texto h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.divisao-texto p {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+
+.divisao-icon{
+  font-size: 2.3rem;
+}
+
+
+
+.divisao-categoria.atacado {
+
+  background-color: rgb(23, 0, 122);
+}
+
+
+.nenhum-produto-ofertado {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+
+  margin-top: 5rem;
+
+}

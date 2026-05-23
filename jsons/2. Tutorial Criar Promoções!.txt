@@ -1,0 +1,17 @@
+===- Tutorial Como criar promoção! -===
+
+Dica Lendária: Copia um produto existente e edita as informações!
+
+[ -> abre a lista -> todos os produtos em promoção ficam dentro disso.
+  { -> abre o produto
+    "marca": "alga", -> marca do produto
+    "foto": "/imgs/new-generation/sustanon.jpeg", -> diretório da imagem do produto
+    "nome": "aasda", -> nome
+    "peso": "123", -> peso
+    "quantidade": "22", -> qtd 
+    "precoAnterior": 12.22, -> preco anterior dele
+    "precoAtual": 8.22 -> e a promoção, nota que n tem virgula antes dele? ele segue o mesmo esquema das chaves {}
+  } -> fecha o produto -> se tiver + de um, precisa de virgula até o pernultimo produto, o ultimo n tem virgula! nem o primeiro kk
+
+
+] -> fecha a lista

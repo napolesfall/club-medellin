@@ -1,0 +1,45 @@
+===- Tutorial Pika das galaxias -===
+
+Dica Suprema: quer criar um produto? O jeito mais fácil é -> copiar um produto existente e só muda as informações!
+-> funciona para tudo, criar produto, marca e categoria
+
+==- Como Criar Produtos? 
+
+{ -> abre o produto
+  "marca": "LANDERGOLD", -> bota a marca dele aq -cuidado com a virgula, se n tiver dá error-
+  "foto": "/imgs/landergold/boldenona.jpg", -> ver onde tá o diretorio da img dele
+  "nome": "Boldenona",  -> bota o nome dele aq
+  "peso": "250mg",      -> peso total
+  "quantidade": "10ml", -> unidade?
+  "preco": "143,00",    -> preço
+  "disponivel": true,   -> se o produto tá disponível ou n, se n ele invoca um design diferente.
+  "tipo": "Injetável"   -> o tipo de produto! 
+} -> Fecha, se tiver outro produto abaixo dele, tem que por ','-> virgola
+
+
+==- Tenho que criar uma nova marca e agora? -==
+
+ { -> abre
+    "marca": "LANDERGOLD", -> nome da marca
+    "atacado": false, -> a marca vai aparecer na parte de atacado?
+
+    "produtos": [] -> dentro dos cochetes -array- tu bota todos os produtos da marca. Lembrando da virgola!! o ultimo elemento n tem virgula, se tiver dá erro kk
+ } -> fecha
+
+
+==- Quero criar uma nova categoria, importados e premium... é muito pouco!!-==
+
+{ -> abre 
+  "categoriaNome": "Marcas Importadas", -> o nome da categoria
+  "categoriaAbreviacao": "MI", -> Forma abreviada que vai aparecer como se fosse um icon do lado do nome!
+
+  "categoriaMarcas" : [] -> aqui se bota todas as marcas da categoria... é chamado de lista isso
+} -> fecha -lembra da virgula caso tiver outra categoria abaixo-
+
+
+==- Por fim -==
+  Tudo isso que foi apresentado, fica dentro da lista Categorias! e dentro de chaves. 
+
+{
+  "categorias": []
+}
